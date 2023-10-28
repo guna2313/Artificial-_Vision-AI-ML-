@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Emotion Detection</title>
+	<style>
+		/* Start Live Feed button */
+		#start-feed {
+		  background-color: #e76f51;
+		  color: #fff;
+		  border: none;
+		  padding: 12px 20px;
+		  font-size: 18px;
+		  font-weight: 700;
+		  border-radius: 50px;
+		  cursor: pointer;
+		  overflow: hidden;
+		  position: relative;
+		  transition: all 0.3s ease;
+		}
+
+		#start-feed:before {
+		  content: '';
+		  position: absolute;
+		  width: 120%;
+		  height: 120%;
+		  background-color: #fff;
+		  transform: rotate(-45deg);
+		  top: 50%;
+		  left: 50%;
+		  opacity: 0;
+		  transition: all 0.3s ease;
+		}
+
+		#start-feed:hover:before {
+		  opacity: 1;
+		  transform: translate(-50%, -50%) rotate(-45deg);
+		}
+
+		#start-feed:hover {
+		  color: #e76f51;
+		}
+	</style>
+</head>
+<body>
+	<h1>Real Time Object Detection</h1>
+	
+	<div>
+		<button id="start-feed">Start Live Feed</button>
+		<img id="video-feed" style="display:none">
+	</div>
+
+	<script>
+		const startButton = document.getElementById('start-feed');
+		const videoFeed = document.getElementById('video-feed');
+
+		startButton.addEventListener('click', () => {
+			videoFeed.style.display = 'block';
+			videoFeed.src = "{{ url_for('video_feed') }}";
+		});
+	</script>
+</body>
+</html>
