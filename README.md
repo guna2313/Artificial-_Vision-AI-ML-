@@ -7,3 +7,6 @@
 ![Screenshot 2023-10-28 195931](https://github.com/guna2313/Artificial-_Vision-AI-ML-/assets/113575174/36dd37a9-ee35-496d-922c-0ef9f1ea7f8d)
 ![Screenshot 2023-10-28 194352](https://github.com/guna2313/Artificial-_Vision-AI-ML-/assets/113575174/11671cb5-1c5e-41ec-8d14-2e472b7d913c)
 ![Screenshot 2023-10-28 194458](https://github.com/guna2313/Artificial-_Vision-AI-ML-/assets/113575174/91abb6e9-072f-4db3-ada8-da58e5b959ee)
+![Screenshot 2023-11-13 224412](https://github.com/guna2313/Artificial-_Vision-AI-ML-/assets/113575174/81f6354d-c2d8-425e-8878-22caa164b08e)
+![Screenshot 2023-11-13 225202](https://github.com/guna2313/Artificial-_Vision-AI-ML-/assets/113575174/7a92a622-54f0-426c-8e11-9065dd69e8b1)
+![Screenshot 2023-11-13 224804](https://github.com/guna2313/Artificial-_Vision-AI-ML-/assets/113575174/cbd5e4d5-6458-499f-82e6-b98ec05e3363)
